@@ -1,1 +1,1 @@
-# e Informační box
+# Informační box
