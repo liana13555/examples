@@ -1,0 +1,102 @@
+body {
+    font-family: system-ui, system-ui, sans-serif;
+}
+
+.container{    
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 5px; 
+  
+    background-color: rgb(245, 248, 248);
+}
+
+.title{
+    margin: 5px 10px 10px 20px;
+    font-size: 20px;
+    letter-spacing: 2px;   
+    text-transform: uppercase; 
+    color: rgb(110, 120, 146);
+}
+
+.thumb {
+    background-color: white;
+    padding: 20px;
+}
+
+.label {   
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.spzInput{
+    width: 220px;    
+    padding: 6px;
+    color: black;
+    border: 2px solid rgb(181, 192, 192);
+    border-radius: 3px;  
+}
+
+.spzInfo {
+    display: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.validInfo {
+    display: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(204, 82, 82);
+}
+
+.spzCode {
+    display: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(204, 82, 82);
+}
+
+.error {
+    border-color: red;
+}
+
+.disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+.inputLicence {   
+    width: 180px;
+    height: 32px;
+    margin-top: 24px;    
+    padding: 6px;
+    padding-left: 44px;
+
+    font-size: 24px;
+    color: black;
+    border: 2px solid black;
+    outline: 2px solid rgb(181, 192, 192);
+    border-radius: 5px;  
+    background: url('./image/cz.jpg') 0 0 no-repeat;
+    background-size: 30px 50px;
+}
+
+input::placeholder {
+    color: #262f35;
+    opacity: 1;
+}
+
+.button {
+    width: 235px;
+    margin-top: 24px;
+    padding: 8px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(18, 92, 18);
+    border: transparent;
+    border-radius: 5px;
+}

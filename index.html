@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Úloha č.2</title>
+    <link rel="stylesheet" href="./common.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+             <h1 class="title">Validátor SPZ</h1>
+
+            <form autocomplete="off" action="#" class="thumb">
+
+                <label class="label">Státní poznávací značka vozidla</label>
+                <input type="text" placeholder="Zadejte SPZ..." class="spzInput">
+                <div class="spzInfo">Musí mít přesně 7 znaků.</div>
+                
+                <div class="spzCode">Zadejte validní SPZ</div>
+
+                <input type="text" class="inputLicence"/>
+                <div class="validInfo">Neobsahuje validní označení kraje</div>
+
+                <button type="submit" class="button">Zvalidovat SPZ</button>
+                <div class="msgBox"></div>
+            </form>      
+           
+        </div>    
+    </main>    
+    <footer></footer>   
+    
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
