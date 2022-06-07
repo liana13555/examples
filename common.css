@@ -32,30 +32,30 @@ body {
     font-weight: 600;
 }
 
-.spzInput{
-    width: 220px;    
+.licenceInput{
+    width: 230px;    
     padding: 6px;
     color: black;
     border: 2px solid rgb(181, 192, 192);
     border-radius: 3px;  
 }
 
-.spzInfo {
+.licenceInfo {
     display: none;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
 }
 
 .validInfo {
     display: none;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     color: rgb(204, 82, 82);
 }
 
-.spzCode {
+.licenceCode {
     display: none;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     color: rgb(204, 82, 82);
 }
@@ -70,7 +70,7 @@ body {
 }
 
 .inputLicence {   
-    width: 180px;
+    width: 190px;
     height: 32px;
     margin-top: 24px;    
     padding: 6px;
@@ -91,7 +91,7 @@ input::placeholder {
 }
 
 .button {
-    width: 235px;
+    width: 245px;
     margin-top: 24px;
     padding: 8px;
     letter-spacing: 1px;
